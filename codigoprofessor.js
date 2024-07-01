@@ -7,7 +7,7 @@ while(true) {//funciona  enquanto for verdadeiro
     } else {
         let numero = prompt("Digite um número: ")
 
-        numero = numero.split("") //separa em uma string vazia, o valor entre parentezes determina o tamanho do array
+        numero = numero.split("") //separa em uma string vazia, o valor entre parenteses determina o tamanho do array
         
         for (let i = 0; i < numero.length; i++){
             for (j = i + 1;  j < numero.length; j++){
